@@ -22,7 +22,7 @@ public class Hangman {
         System.out.println("Words file? [leave empty to use short_words.txt]");
         String fileName = inputScanner.nextLine();                                                      // <2>
         if (fileName.isBlank()) {
-            fileName = "short_words.txt";
+            fileName = "/home/wtc/student_work/submission-102-java-003-hangman/src/main/java/za/co/wethinkcode/examples/hangman/short_words.txt";
         }
 
         List<String> words = Files.readAllLines(Path.of(fileName));                                     //<3>

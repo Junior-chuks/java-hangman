@@ -1,0 +1,6 @@
+run
+jump
+tree
+tweet
+free
+test
